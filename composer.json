@@ -1,0 +1,29 @@
+{
+    "name":        "tomkyle/users",
+    "type":        "library",
+    "description": "Part of a crappy framework, providing formerly useful classes. Will be removed soon",
+
+
+
+    "authors": [
+        {
+            "name":  "Carsten Witt",
+            "email": "carsten.witt@gmail.com",
+            "role":  "Developer"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": {
+            "tomkyle\\Users\\": "src/"
+        }
+    },
+
+    "require": {
+        "php":            ">=5.4.9",
+        "tomkyle/rbac":   "~1.0",
+        "tomkyle/emails": "~1.0"
+    }
+}
