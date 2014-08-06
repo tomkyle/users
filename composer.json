@@ -3,8 +3,6 @@
     "type":        "library",
     "description": "Part of a crappy framework, providing formerly useful classes. Will be removed soon",
 
-
-
     "authors": [
         {
             "name":  "Carsten Witt",
